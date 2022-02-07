@@ -5,8 +5,12 @@
 jP7YnAS5Pbs2ntPS
 
 AWS
-https://medium.com/nerd-for-tech/how-to-deploy-laravel-project-on-ec2-aws-6d004a57bb1f
+sudo apt-get install php7.4-cli php7.4-common php7.4-curl php7.4-gd php7.4-json php7.4-mbstring php7.4-intl php7.4-mysql php7.4-xml php7.4-zip
 
 Composer
-https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-20-04-quickstart
-
+cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+HASH=`curl -sS https://composer.github.io/installer.sig`
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer
