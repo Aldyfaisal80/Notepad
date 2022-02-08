@@ -20,4 +20,7 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 composer
 
 Menjalankan composer tanpa sudo
-https://stackoverflow.com/questions/30266250/how-to-fix-error-mkdir-permission-denied-when-running-composer
+cd /var/www/
+sudo chown -Rv root:$USER .
+sudo chmod -Rv g+rw .
+composer create-project laravel/laravelprojectName--prefer-dist
