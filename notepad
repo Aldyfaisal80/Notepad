@@ -30,3 +30,5 @@ https://www.pgadmin.org/download/pgadmin-4-windows/
 2. Koneksi database ada di dalam folder lam-laravel > config/database.php
 3. Server dijalankan dengan apache server. Konfigurasi ada di /etc/apache2/sites-enabled/lamp_laravel.conf
 4. Web di run dengan config .env, lokasi di folder lamp_laravel.conf > .env
+
+https://www.microsoft.com/en-us/p/sqlpro-studio/9n621pxmdgbm?activetab=pivot:overviewtab
