@@ -4,7 +4,11 @@
 4.lalu git clone git@github.com:Aldyfaisal80/lamp-laravel.git
 jP7YnAS5Pbs2ntPS
 
-AWS
+
+
+AWS: git add .
+ git commit -m "message"
+git push origin master
 sudo apt-get install php7.4-cli php7.4-common php7.4-curl php7.4-gd php7.4-json php7.4-mbstring php7.4-intl php7.4-mysql php7.4-xml php7.4-zip
 
 Composer
